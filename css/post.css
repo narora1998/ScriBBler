@@ -1,19 +1,75 @@
 .blogTite {
-    font-size: 150%;
-    font-family: 'Abel', sans-serif;
-    font-weight: bold;
+  font-size: 150%;
+  font-family: "Abel", sans-serif;
+  font-weight: bold;
 }
 .blogText {
-     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 .blogAuthor {
-    padding: 0px 0px 0px 10px;
-    font-family: 'Niconne', cursive;
-    font-size: 30px;
-}
-.blogContent{
-
+  padding: 0px 0px 0px 10px;
+  font-family: "Niconne", cursive;
+  font-size: 30px;
 }
 
+.blogTite {
+  text-align: center;
+}
+.author {
+  color: black;
+  font-size: 2rem;
+}
+
+#blogTitleNew {
+  color: black;
+}
+
+#blogBody {
+  color: black;
+  font-size: 1rem;
+}
+
+#editSave {
+  background-color: rgb(223, 6, 172);
+  color: white;
+  padding: 5px 10px;
+  margin-left: 95%;
+  outline: none;
+  border-radius: 2px;
+}
+
+#likeButton {
+  background-color: rgb(223, 6, 172);
+  color: white;
+  padding: 5px 15px;
+  margin-top: 2%;
+  outline: none;
+  border-radius: 2px;
+}
+
+#likeText {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+}
+
+#textArea {
+  padding: 5px;
+}
+
+#commentButton {
+  background-color: red;
+  color: white;
+  padding: 5px 15px;
+  outline: none;
+}
+
+#commentContainer {
+  background-color: gray;
+}
+
+.commentClass {
+  background-color: white;
+  width: 90%;
+  padding: 5px;
+}
 /* Set a style for all the remaining elements like Like button, Edit button, Comment button and so on. */
