@@ -12,7 +12,7 @@ the title "ScriBBler" & the sub-heading below "ScriBBLer" */
   justify-content: space-between;
 }
 
-p {
+#scribbler {
   margin-top: 0px;
   margin-left: 5px;
   margin-bottom: 0px;

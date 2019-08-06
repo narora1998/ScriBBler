@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
-<head>
-        
-        <link href='..\css\post.css' rel='stylesheet' type='text/css'>
+<head>            
         <link href='..\css\header.css' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="..\font-awesome-4.7.0/css/font-awesome.min.css">
         <link href='..\css\font.css' rel='stylesheet' type='text/css'>
+        <link href='..\css\post.css' rel='stylesheet' type='text/css'>
     <style>        
     </style>     
 </head>
@@ -13,7 +12,7 @@
     <div class="header">
         <!-- Insert code for Sign Up, Sign In button here. Add code for "ScriBBler" heading and the sub-heading -->
         <div>
-          <p>ScriBBler</p>
+          <p id="scribbler">ScriBBler</p>
           <small>Explore.Imagine.Create</small>
         </div>
         <div class="signInUpButtons">
@@ -57,15 +56,18 @@
     <br>
     <pre id="likeText">Be the first one to like this!</pre>
 
-    <textarea id="textArea" rows="5" cols="200" placeholder="Leave a comment..."></textarea><br>
-    <!-- <button id="commentButton" onclick="showComments()">Comment</button> -->
+    <textarea id="textArea" rows="5" placeholder="Leave a comment..."></textarea><br>
+    <button id="commentButton" onclick="showComments()">Comment</button>
     </div>
 
-    <!-- <div id="commentsSection">
+    <div id="commentsSection">
         <h3>All Comments</h3>
-        <div id="commentContainer">
+        <div id="grayContainer">
+          <div id="commentContainer">
+
+          </div>
         </div>
-    </div> -->
+    </div>
     
 
     <script src="..\js\post.js" defer></script>

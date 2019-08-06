@@ -40,16 +40,16 @@ function postLiked() {
   }
 }
 
-// function showComments() {
-//   var comment = document.getElementById("textArea");
-//   var commentContainer = document.getElementById("commentContainer");
-//   commentContainer.innerHTML = "";
-//   commentArray.push(comment.value);
-//   comment.value = "";
-//   for (var i = 0; i < commentArray.length; i++) {
-//     var doc = document.createElement("p");
-//     doc.setAttribute("class", "commentClass");
-//     doc.innerText = commentArray[i];
-//     document.getElementById("commentContainer").append(doc);
-//   }
-// }
+function showComments() {
+  var comment = document.getElementById("textArea");
+  var commentContainer = document.getElementById("commentContainer");
+  commentContainer.innerHTML = "";
+  commentArray.push(comment.value);
+  comment.value = "";
+  for (var i = commentArray.length - 1; i >= 0; i--) {
+    var doc = document.createElement("p");
+    doc.setAttribute("class", "commentClass");
+    doc.innerText = commentArray[i];
+    document.getElementById("commentContainer").append(doc);
+  }
+}
