@@ -102,9 +102,9 @@ h5 {
   text-align: center;
 }
 
-.modal-title {
+/* .modal-title {
   margin-left: 20%;
-}
+} */
 
 .modal-content {
   width: 80%;
@@ -119,13 +119,13 @@ h5 {
   margin-top: 2%;
 }
 
-#ModalSignIn {
+/* #ModalSignIn {
   margin-left: 10%;
-}
+} */
 
-#ModalCreatePost {
+/* #ModalCreatePost {
   margin-left: 25%;
-}
+} */
 
 .input {
   background-color: lightgray;

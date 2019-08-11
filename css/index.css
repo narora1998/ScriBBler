@@ -49,9 +49,9 @@ body {
   text-align: center;
 }
 
-.modal-title {
+/* .modal-title {
   margin-left: 20%;
-}
+} */
 
 .modal-content {
   width: 80%;
@@ -72,4 +72,9 @@ body {
 
 #ModalCreatePost {
   margin-left: 25%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
 }
